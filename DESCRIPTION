@@ -1,8 +1,17 @@
 Package: cnvkitutils
-Title: What the Package Does (one line, title case)
+Title: R Package Containing Utility Functions for CNVkit
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Fong Chun", "Chan", email = "fongchunchan@gmail.com", role = c("aut", "cre"))
+Description: This package provides various utility functions to help with the 
+  analysis of CNVkit output.
 Depends: R (>= 3.2.2)
-License: What license is it under?
+License: MIT
+Imports:
+	readr (>= 0.1.1),
+	plyr (>= 1.8.3),
+	dplyr (>= 0.4.3),
+	reshape2 (>= 1.4.1),
+	GenomicRanges (>= 1.18.4),
+	S4Vectors (>= 0.4.0),
+	IRanges (>= 2.0.1)
 LazyData: true
