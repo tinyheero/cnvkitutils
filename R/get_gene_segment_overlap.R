@@ -8,7 +8,7 @@
 #' @return data.frame that contains the overlap of the input gene annotation
 #'  with the input segment data.
 #' @export
-get_gene_titan_seg_overlap <- function(segs.df, gene.annot.df, overlap.prop = 0.5) {
+get_gene_seg_overlap <- function(segs.df, gene.annot.df, overlap.prop = 0.5) {
 
   if (overlap.prop > 1) {
     stop("overlap.prop cannot be greater than 1")
